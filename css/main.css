@@ -1,0 +1,78 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+
+/*uses to center all the boxes in body*/
+#container{
+	margin: 2% 20% 2% 20%;
+}
+
+.box{
+	display: inline-block;
+	width: 55px;
+	height: 55px;
+	border: 1px solid #000000
+}
+
+div.box {
+	padding: 5px;
+	margin: 5px;
+}
+
+#bodyDiv{
+	padding: 10
+}
+
+input{
+	position: relative;
+	top:-5px;
+	left: -5px;	
+	width: 55px;
+	height: 53px;
+	text-align: center;
+	font-size: 3em;
+}
+
+input:placeholder-shown{
+	opacity: .3;
+
+}
+
+#down-ques{
+	position: absolute;
+	top: 50px;
+	left: 30px;
+}
+
+.sucess{
+	background-color:#15b115;
+	color:#ffffff;
+
+}
+
+#across-ques{
+	position: absolute;
+	top: 0px;
+	left: 1050px;
+}
+
+.fail{
+	background-color: white;
+}
+
+ #words{
+	text-align: center;
+	font-size: 80px;
+	color: red;
+
+}
+
+#mystery{
+	text-align: center;
+}
+
